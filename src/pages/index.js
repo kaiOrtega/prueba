@@ -5,6 +5,12 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+const doFetch = () => {
+  fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+}
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -15,6 +21,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
+    <button onClick={doFetch}>Un boton</button>
   </Layout>
 )
 
