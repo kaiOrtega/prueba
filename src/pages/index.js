@@ -14,7 +14,7 @@ const doFetch = () => {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    ES EL MASTER
+    ES EL MASTER DE LA PRUEBA
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
