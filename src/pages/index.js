@@ -6,6 +6,7 @@ import styled from 'styled-components'
 //import Image from "../components/image"
 import SEO from "../components/seo"
 import background from "../images/background.jpg"
+import '../styles/general.css'
 
 
 const Image = styled.div`
